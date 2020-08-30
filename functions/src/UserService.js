@@ -80,6 +80,7 @@ userServiceAPI.delete('/users/:userName', async (req, res) => {
 
 })
 
+//PUT: update the user's information based on a given userName
 userServiceAPI.put('/users/:userName', async (req, res) => {
     let userID = ''
     const userDataToUpdate = req.body;

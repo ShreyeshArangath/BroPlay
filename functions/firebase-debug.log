@@ -2280,3 +2280,9 @@ SyntaxError: Unexpected token ')'
 [debug] [2020-08-30T22:32:15.013Z] [runtime-status] Ephemeral server used! {}
 [debug] [2020-08-30T22:32:15.021Z] [runtime-status] Ephemeral server survived. {}
 [info] i  functions: Finished "userService" in ~1s
+[debug] [2020-08-30T22:33:05.963Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/UserService.js changed, reloading triggers
+[debug] [2020-08-30T22:33:07.803Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T22:33:07.804Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T22:33:07.810Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T22:33:07.818Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T22:33:07.820Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
