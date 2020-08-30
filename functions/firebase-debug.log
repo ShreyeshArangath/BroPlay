@@ -424,3 +424,421 @@ SyntaxError: missing ) after argument list
 [info] >  broPlayRoomId
 [debug] [2020-08-30T06:14:29.695Z] [runtime-status] Ephemeral server survived. {}
 [info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:17:13.657Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:17:16.178Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:17:16.179Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:17:16.189Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:17:16.194Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:17:16.195Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:17:54.566Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:17:56.006Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:17:56.007Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:17:56.014Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:17:56.017Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:17:56.020Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:19:21.605Z] Accepted request POST /broplay-reactnative/us-central1/users --> users
+[debug] [2020-08-30T06:19:23.001Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "users"
+[debug] [2020-08-30T06:19:23.002Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:19:23.017Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:19:23.021Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:19:23.027Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  functions: Could not find trigger "users" in your functions directory.
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[debug] [2020-08-30T06:19:39.761Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:19:40.256Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:19:40.259Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:19:40.265Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:19:40.269Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:19:40.274Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:19:41.410Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:19:41.411Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:19:41.411Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:19:41.424Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34415.sock"}
+[debug] [2020-08-30T06:19:41.431Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34415.sock"}
+[info] >  SyntaxError: Unexpected token " in JSON at position 0
+[info] >      at JSON.parse (<anonymous>)
+[info] >      at createStrictSyntaxError (/Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:158:10)
+[info] >      at parse (/Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:83:15)
+[info] >      at /Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/node_modules/body-parser/lib/read.js:121:18
+[info] >      at invokeCallback (/Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:224:16)
+[info] >      at done (/Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:213:7)
+[info] >      at IncomingMessage.onEnd (/Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:273:7)
+[info] >      at IncomingMessage.emit (events.js:327:22)
+[info] >      at endReadableNT (_stream_readable.js:1201:12)
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-08-30T06:19:50.539Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:19:51.111Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:19:51.112Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:19:51.123Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:19:51.127Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:19:51.129Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:19:52.548Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:19:52.549Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:19:52.549Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:19:52.562Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34417.sock"}
+[debug] [2020-08-30T06:19:52.565Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34417.sock"}
+[debug] [2020-08-30T06:19:52.597Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:19:52.600Z] [runtime-status] Ephemeral server survived. {}
+[info] >  (node:34417) UnhandledPromiseRejectionWarning: Error: Value for argument "data" is not a valid Firestore document. Input is not a plain JavaScript object.
+[info] >      at validateDocumentData (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/@google-cloud/firestore/build/src/write-batch.js:639:15)
+[info] >      at WriteBatch.create (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/@google-cloud/firestore/build/src/write-batch.js:156:9)
+[info] >      at DocumentReference.create (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/@google-cloud/firestore/build/src/reference.js:282:14)
+[info] >      at /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js:36:52
+[info] >      at Layer.handle [as handle_request] (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/layer.js:95:5)
+[info] >      at next (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/route.js:137:13)
+[info] >      at Route.dispatch (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/route.js:112:3)
+[info] >      at Layer.handle [as handle_request] (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/layer.js:95:5)
+[info] >      at /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/index.js:281:22
+[info] >      at param (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/index.js:354:14)
+[info] >  (node:34417) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[info] >  (node:34417) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[debug] [2020-08-30T06:21:41.386Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:21:43.464Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:21:43.470Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:21:43.470Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:21:43.506Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:21:43.516Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:21:43.522Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:21:43.565Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:21:44.984Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:21:44.988Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:21:44.999Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:21:45.008Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:21:45.010Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:22:00.872Z] Accepted request GET /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:22:01.798Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:22:01.798Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:22:01.808Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:22:01.814Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:22:01.815Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:22:04.011Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:22:04.012Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:22:04.012Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:22:04.019Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34458.sock"}
+[debug] [2020-08-30T06:22:04.021Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34458.sock"}
+[debug] [2020-08-30T06:22:04.030Z] [runtime-status] Ephemeral server used! {}
+[info] >  broPlayRoomId
+[debug] [2020-08-30T06:22:04.039Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:22:44.090Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:22:46.111Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:22:46.112Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:22:46.124Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:22:46.130Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:22:46.131Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:22:47.126Z] Accepted request GET /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:22:47.661Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:22:47.663Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:22:47.676Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:22:47.679Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:22:47.681Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:22:49.123Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:22:49.123Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:22:49.124Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:22:49.134Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34463.sock"}
+[debug] [2020-08-30T06:22:49.136Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34463.sock"}
+[debug] [2020-08-30T06:22:49.147Z] [runtime-status] Ephemeral server used! {}
+[info] >  broPlayRoomId
+[debug] [2020-08-30T06:22:49.156Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:23:20.810Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:23:21.910Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:23:21.911Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:23:21.929Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:23:21.937Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:23:21.940Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:23:24.384Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:23:24.384Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:23:24.384Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:23:24.398Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34474.sock"}
+[debug] [2020-08-30T06:23:24.400Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34474.sock"}
+[debug] [2020-08-30T06:23:24.451Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:23:24.463Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:23:37.593Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:23:38.322Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:23:38.324Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:23:38.335Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:23:38.338Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:23:38.340Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:23:39.892Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:23:39.892Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:23:39.892Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:23:39.907Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34477.sock"}
+[debug] [2020-08-30T06:23:39.911Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34477.sock"}
+[debug] [2020-08-30T06:23:39.949Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:23:39.957Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:23:56.012Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:23:57.449Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:23:57.449Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:23:57.454Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:23:57.457Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:23:57.459Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:07.307Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:24:07.410Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:24:08.858Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:24:08.859Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:24:08.866Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:24:08.869Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:08.871Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:09.294Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:24:09.897Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:24:09.903Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:24:09.912Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:24:09.920Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:09.922Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:11.168Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:24:11.169Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:24:11.169Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:24:11.175Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34494.sock"}
+[debug] [2020-08-30T06:24:11.178Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34494.sock"}
+[debug] [2020-08-30T06:24:11.214Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:24:11.223Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:24:23.626Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:24:25.124Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:24:25.124Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:24:25.130Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:24:25.133Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:25.134Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:26.780Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:24:27.270Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:24:27.271Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:24:27.279Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:24:27.282Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:27.285Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:24:28.392Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:24:28.392Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:24:28.392Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:24:28.403Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34515.sock"}
+[debug] [2020-08-30T06:24:28.405Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34515.sock"}
+[debug] [2020-08-30T06:24:28.437Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:24:28.445Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:25:22.238Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:25:23.858Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:25:23.858Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:25:23.863Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:25:23.866Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:25:23.868Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js:35
+    const user = req.body;
+    ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:1063:16)
+    at Module._compile (internal/modules/cjs/loader.js:1111:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+    at Module.load (internal/modules/cjs/loader.js:996:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:896:14)
+    at Module.require (internal/modules/cjs/loader.js:1036:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at /Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:677:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/shreyesh/.nvm/versions/node/v13.11.0/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+[warn] ⚠  We were unable to load your functions code. (see above)
+[debug] [2020-08-30T06:26:01.800Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:26:03.543Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:26:03.543Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:26:03.549Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:26:03.552Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:03.554Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:04.494Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:26:05.371Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:26:05.373Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:26:05.383Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:26:05.392Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:05.394Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:06.788Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:26:06.788Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:26:06.788Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:26:06.797Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34539.sock"}
+[debug] [2020-08-30T06:26:06.800Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34539.sock"}
+[debug] [2020-08-30T06:26:06.843Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:26:06.853Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:26:47.325Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:26:49.446Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:26:49.447Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:26:49.457Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:26:49.469Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:49.472Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:49.559Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:26:50.174Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:26:50.181Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:26:50.197Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:26:50.205Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:50.208Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:26:52.501Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:26:52.501Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:26:52.501Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:26:52.514Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34556.sock"}
+[debug] [2020-08-30T06:26:52.545Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34556.sock"}
+[debug] [2020-08-30T06:26:52.605Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:26:52.614Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:28:05.047Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:28:07.140Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:28:07.140Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:28:07.154Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:28:07.159Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:07.161Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:11.544Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:28:12.980Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:28:12.980Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:28:12.987Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:28:12.990Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:12.991Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:16.645Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:28:17.148Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:28:17.149Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:28:17.156Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:28:17.160Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:17.163Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:18.246Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:28:18.246Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:28:18.246Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:28:18.255Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34599.sock"}
+[debug] [2020-08-30T06:28:18.259Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34599.sock"}
+[debug] [2020-08-30T06:28:18.307Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:28:18.311Z] [runtime-status] Ephemeral server survived. {}
+[info] >  (node:34599) UnhandledPromiseRejectionWarning: ReferenceError: broPlayIdRef is not defined
+[info] >      at /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js:37:22
+[info] >      at Layer.handle [as handle_request] (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/layer.js:95:5)
+[info] >      at next (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/route.js:137:13)
+[info] >      at Route.dispatch (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/route.js:112:3)
+[info] >      at Layer.handle [as handle_request] (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/layer.js:95:5)
+[info] >      at /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/index.js:281:22
+[info] >      at param (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/index.js:354:14)
+[info] >      at param (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/index.js:365:14)
+[info] >      at Function.process_params (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/index.js:410:3)
+[info] >      at next (/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/express/lib/router/index.js:275:10)
+[info] >  (node:34599) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[info] >  (node:34599) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[debug] [2020-08-30T06:28:41.759Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:28:43.446Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:28:43.447Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:28:43.459Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:28:43.464Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:43.467Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:46.536Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:28:47.081Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:28:47.083Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:28:47.102Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:28:47.109Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:47.113Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:28:48.447Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:28:48.447Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:28:48.447Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:28:48.456Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34605.sock"}
+[debug] [2020-08-30T06:28:48.458Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34605.sock"}
+[debug] [2020-08-30T06:28:48.492Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:28:48.499Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:30:18.080Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:30:19.560Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:30:19.561Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:30:19.567Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:30:19.570Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:19.576Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:25.343Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:30:25.856Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:30:25.859Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:30:25.868Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:30:25.873Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:25.877Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:27.052Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:30:27.053Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:30:27.053Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:30:27.063Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34634.sock"}
+[debug] [2020-08-30T06:30:27.067Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34634.sock"}
+[debug] [2020-08-30T06:30:27.100Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:30:27.107Z] [runtime-status] Ephemeral server survived. {}
+[info] >  (node:34634) UnhandledPromiseRejectionWarning: TypeError: Assignment to constant variable.
+[info] >      at /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js:46:22
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[info] >  (node:34634) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[info] >  (node:34634) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[debug] [2020-08-30T06:30:48.606Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:30:50.832Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:30:50.834Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:30:50.851Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:30:50.860Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:50.864Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:52.985Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:30:53.678Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:30:53.679Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:30:53.688Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:30:53.693Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:53.695Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:30:54.928Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:30:54.929Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:30:54.929Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:30:54.935Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34637.sock"}
+[debug] [2020-08-30T06:30:54.939Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34637.sock"}
+[debug] [2020-08-30T06:30:54.996Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:30:55.002Z] [runtime-status] Ephemeral server survived. {}
+[info] >  (node:34637) UnhandledPromiseRejectionWarning: TypeError: Assignment to constant variable.
+[info] >      at /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js:46:22
+[info] >      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[info] >  (node:34637) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[info] >  (node:34637) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[debug] [2020-08-30T06:31:09.999Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:31:10.800Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:31:12.516Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:31:12.521Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:31:12.538Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:31:12.544Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:31:12.546Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:31:14.815Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:31:15.466Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:31:15.470Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:31:15.483Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:31:15.487Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:31:15.488Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:31:16.698Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:31:16.698Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:31:16.698Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:31:16.709Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34650.sock"}
+[debug] [2020-08-30T06:31:16.711Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34650.sock"}
+[debug] [2020-08-30T06:31:16.755Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:31:16.762Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s
+[debug] [2020-08-30T06:32:23.750Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/index.js changed, reloading triggers
+[debug] [2020-08-30T06:32:25.643Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-30T06:32:25.643Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:32:25.655Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:32:25.662Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:32:25.664Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:32:33.181Z] Accepted request POST /broplay-reactnative/us-central1/broPlayRooms/broPlayRoomId --> broPlayRooms
+[debug] [2020-08-30T06:32:33.790Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "broPlayRooms"
+[debug] [2020-08-30T06:32:33.792Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-30T06:32:33.799Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-30T06:32:33.805Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:32:33.809Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-30T06:32:35.034Z] [runtime-status] Trigger "broPlayRooms" has been found, beginning invocation! {}
+[debug] [2020-08-30T06:32:35.034Z] [runtime-status]  {"httpsTrigger":{},"name":"broPlayRooms","entryPoint":"broPlayRooms"}
+[debug] [2020-08-30T06:32:35.034Z] [runtime-status] Running broPlayRooms in mode HTTPS {}
+[debug] [2020-08-30T06:32:35.043Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34681.sock"}
+[debug] [2020-08-30T06:32:35.047Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_34681.sock"}
+[debug] [2020-08-30T06:32:35.095Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-30T06:32:35.102Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "broPlayRooms" in ~1s

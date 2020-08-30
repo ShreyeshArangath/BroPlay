@@ -27,9 +27,28 @@ userServiceAPI.get("/:roomId", async (req, res) => {
         .catch((err) => {
             console.log(err);
         });
-
     res.send((data));
 });
+
+userServiceAPI.post("/:roomId", async (req, res) => {
+    let preExistingUsers = []
+    const user = req.body;
+    const roomId = req.params.roomId;
+    const broPlayIdRef = db.collection('broPlayRoom').doc(roomId);
+    await broPlayIdRef.get()
+        .then((doc) => {
+            preExistingUsers.push(doc.data());
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+
+    preExistingUsers = preExistingUsers[0];
+    preExistingUsers.users.push(user.userName);
+
+    await broPlayIdRef.update(preExistingUsers);
+    res.send(preExistingUsers);
+})
 
 
 exports.broPlayRooms = functions.https.onRequest(userServiceAPI);
