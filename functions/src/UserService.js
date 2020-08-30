@@ -80,4 +80,26 @@ userServiceAPI.delete('/users/:userName', async (req, res) => {
 
 })
 
+userServiceAPI.put('/users/:userName', async (req, res) => {
+    let userID = ''
+    const userDataToUpdate = req.body;
+    const userName = req.params.userName;
+    const userDatabaseRef = db.collection('users');
+
+    await userDatabaseRef.where('userName', '==', userName).get()
+        .then((doc) => {
+            userID = doc.docs[0].id //Get the ID of the document
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+    if (userID != '') {
+        await userDatabaseRef.doc(userID).update(userDataToUpdate);
+        res.status(200).send(`${userName} has been updated with ${userDataToUpdate}`);
+    }
+    else {
+        res.status(400).send(`Cannot find ${userName}`);
+    }
+})
+
 module.exports = userServiceAPI;
