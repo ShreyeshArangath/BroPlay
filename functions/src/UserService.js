@@ -4,65 +4,80 @@ const admin = require('firebase-admin');
 const db = admin.firestore();
 
 const userServiceAPI = express();
-userServiceAPI.use(cors({ origin: true }));
 
-//GET: users in a broPlayRoom by roomId
-userServiceAPI.get("/:roomId", async (req, res) => {
-    const data = []
-    const roomId = req.params.roomId;
-    console.log(roomId);
-    const broPlayIdRef = db.collection('broPlayRoom').doc(roomId);
-    const snapshot = await broPlayIdRef.get()
+//TODO: Add more security
+//GET: Get a user's information 
+userServiceAPI.get('/users/:userName', async (req, res) => {
+    let user = []
+    const userName = req.params.userName;
+    const userDatabaseRef = db.collection('users');
+
+    await userDatabaseRef.where('userName', '==', userName).get()
         .then((doc) => {
-            data.push(doc.data());
+            doc.forEach((element) => {
+                user.push(element.data());
+            })
         })
-        .catch((err) => {
-            console.log(err);
-        });
-    res.send((data));
-});
-
-//POST: add an user to a broPlayRoom using a roomId
-userServiceAPI.post("/:roomId", async (req, res) => {
-    let preExistingUsers = []
-    const user = req.body;
-    const roomId = req.params.roomId;
-    const broPlayIdRef = db.collection('broPlayRoom').doc(roomId);
-    await broPlayIdRef.get()
-        .then((doc) => {
-            preExistingUsers.push(doc.data());
+        .catch((error) => {
+            console.log(error);
         })
-        .catch((err) => {
-            console.log(err);
-        });
+    if (user.length > 0) {
+        res.status(200).send(user);
+    }
+    else {
+        res.status(400).send(`Cannot find ${userName}`);
+    }
 
-    preExistingUsers = preExistingUsers[0];
-    preExistingUsers.users.push(user.userName);
-
-    await broPlayIdRef.update(preExistingUsers);
-    res.send(preExistingUsers);
 })
 
-// DELETE: deletes an user from a broPlayRoom using a roomId and userName
-userServiceAPI.delete("/:roomId", async (req, res) => {
-    let preExistingUsers = []
-    const user = req.body;
-    const roomId = req.params.roomId;
-    const broPlayIdRef = db.collection('broPlayRoom').doc(roomId);
-    await broPlayIdRef.get()
+
+// POST: Create a new user with a user name
+userServiceAPI.post('/users/:userName', async (req, res) => {
+    let preExistingUser = []
+    const userToPost = req.body;
+    const userName = req.params.userName;
+    const userDatabaseRef = db.collection('users');
+
+    await userDatabaseRef.where('userName', '==', userName).get()
         .then((doc) => {
-            preExistingUsers.push(doc.data());
+            doc.forEach((element) => {
+                preExistingUser.push(element.data());
+            })
         })
-        .catch((err) => {
-            console.log(err);
-        });
+        .catch((error) => {
+            console.log(error);
+        })
 
-    preExistingUsers = preExistingUsers[0];
-    preExistingUsers.users = preExistingUsers.users.filter(element => element != user.userName);
-    await broPlayIdRef.update(preExistingUsers);
-
-    res.send(preExistingUsers);
+    if (preExistingUser.length > 0) {
+        res.status(404).send("The user name already exists")
+    }
+    else {
+        await userDatabaseRef.add(userToPost);
+        res.status(200).send(userToPost)
+    }
 })
 
+
+//DELETE: Delete an user with a given user name
+userServiceAPI.delete('/users/:userName', async (req, res) => {
+    let userID = ''
+    const userDatabaseRef = db.collection('users');
+    const userName = req.params.userName;
+    await userDatabaseRef.where('userName', '==', userName).get()
+        .then((doc) => {
+            userID = doc.docs[0].id //Get the ID of the document
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+    if (userID != '') {
+        await userDatabaseRef.doc(userID).delete();
+        res.status(400).send(`Deleted ${userName}`);
+    }
+    else {
+        res.status(200).send(`Cannot find ${userName}`);
+    }
+
+})
 
 module.exports = userServiceAPI;

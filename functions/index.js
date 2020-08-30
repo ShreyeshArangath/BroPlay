@@ -10,8 +10,12 @@ admin.initializeApp({
 
 const db = admin.firestore();
 const broPlayAPI = express();
+
+const broPlayRoomServiceAPI = require('./src/BroPlayRoomService');
 const userServiceAPI = require('./src/UserService');
-exports.broPlayRooms = functions.https.onRequest(userServiceAPI);
+
+exports.broPlayRooms = functions.https.onRequest(broPlayRoomServiceAPI);
+exports.userService = functions.https.onRequest(userServiceAPI);
 
 // app.post("/users", async (req, res)=>{
 //     await db.collection()
