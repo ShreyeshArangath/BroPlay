@@ -30,6 +30,29 @@ spotifyServiceAPI.get('/token', async (req, res) => {
             console.log('Something went wrong when retrieving an access token', err);
         }
     );
+});
+
+spotifyServiceAPI.get('/songs/:artist', async (req, res) => {
+    const artist = req.params.artist;
+    const searchResults = []
+    await spotifyAPI.clientCredentialsGrant()
+        .then((data) => {
+            spotifyAPI.setAccessToken(data.body['access_token']);
+            return spotifyAPI.searchTracks(`artist:${artist}`);
+        })
+        .then((data) => {
+            // Go through the first page of results
+            let results = data.body.tracks.items;
+            console.log(results.length);
+
+            results.forEach((track, index) => {
+                searchResults.push(track);
+            });
+            res.send(searchResults);
+        })
+        .catch(function (err) {
+            console.log('Something went wrong:', err.message);
+        })
 })
 
 
