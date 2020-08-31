@@ -8,6 +8,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "btoa": "^1.2.1",
+    "consolidate": "^0.15.1",
     "cors": "^2.8.5",
     "expo": "~38.0.8",
     "expo-status-bar": "^1.0.2",
@@ -15,7 +17,10 @@
     "firebase": "^7.19.1",
     "firebase-admin": "^9.1.1",
     "firebase-functions": "^3.11.0",
+    "node-fetch": "^2.6.0",
     "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-spotify": "^1.1.0",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
