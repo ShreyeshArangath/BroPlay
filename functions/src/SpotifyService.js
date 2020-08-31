@@ -57,6 +57,22 @@ spotifyServiceAPI.get('/songs/:queryParameter', async (req, res) => {
         });
 })
 
+// GET: Search artists by the name of the artist 
+spotifyServiceAPI.get('/artists/:artist', async (req, res) => {
+    const artist = req.params.artist;
+    await spotifyAPI.clientCredentialsGrant()
+        .then((data) => {
+            spotifyAPI.setAccessToken(data.body['access_token']);
+            return spotifyAPI.searchArtists(artist);
+        })
+        .then((data) => {
+            const searchResults = data.body.artists;
+            res.send(searchResults);
+        })
+        .catch(function (err) {
+            console.log('Something went wrong:', err.message);
+        });
+})
 
 // // GET: Get a list of tracks using the name of the artist
 // spotifyServiceAPI.get('/songs/:artist', async (req, res) => {

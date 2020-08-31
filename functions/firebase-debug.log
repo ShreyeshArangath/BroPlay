@@ -4032,3 +4032,143 @@ SyntaxError: Identifier 'clientId' has already been declared
 [debug] [2020-08-31T01:14:22.467Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
 [debug] [2020-08-31T01:14:22.472Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
 [debug] [2020-08-31T01:14:22.474Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:15:15.000Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:15:17.074Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:15:17.076Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:15:17.121Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:15:17.152Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:15:17.164Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:15:24.010Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:15:25.494Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:15:25.496Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:15:25.501Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:15:25.504Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:15:25.506Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:16:24.282Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:16:25.673Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:16:25.673Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:16:25.678Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:16:25.681Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:16:25.683Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:16:53.329Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:16:54.918Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:16:54.919Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:16:54.941Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:16:54.948Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:16:54.954Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:17:37.932Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:17:39.896Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:17:39.896Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:17:39.907Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:17:39.913Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:17:39.914Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:17:51.819Z] Accepted request GET /broplay-reactnative/us-central1/spotifyService/artists/zayn --> spotifyService
+[debug] [2020-08-31T01:17:52.843Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "spotifyService"
+[debug] [2020-08-31T01:17:52.844Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:17:52.854Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:17:52.859Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:17:52.861Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:17:55.902Z] [runtime-status] Trigger "spotifyService" has been found, beginning invocation! {}
+[debug] [2020-08-31T01:17:55.902Z] [runtime-status]  {"httpsTrigger":{},"name":"spotifyService","entryPoint":"spotifyService"}
+[debug] [2020-08-31T01:17:55.902Z] [runtime-status] Running spotifyService in mode HTTPS {}
+[debug] [2020-08-31T01:17:55.910Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55159.sock"}
+[debug] [2020-08-31T01:17:55.913Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55159.sock"}
+[debug] [2020-08-31T01:17:55.964Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-31T01:17:55.990Z] [runtime-status] Ephemeral server survived. {}
+[info] >  Something went wrong: Cannot read property 'items' of undefined
+[debug] [2020-08-31T01:18:23.237Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:18:25.413Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:18:25.414Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:18:25.424Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:18:25.428Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:25.429Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:26.856Z] Accepted request GET /broplay-reactnative/us-central1/spotifyService/artists/zayn --> spotifyService
+[debug] [2020-08-31T01:18:27.581Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "spotifyService"
+[debug] [2020-08-31T01:18:27.582Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:18:27.592Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:18:27.599Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:27.603Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:29.817Z] [runtime-status] Trigger "spotifyService" has been found, beginning invocation! {}
+[debug] [2020-08-31T01:18:29.817Z] [runtime-status]  {"httpsTrigger":{},"name":"spotifyService","entryPoint":"spotifyService"}
+[debug] [2020-08-31T01:18:29.817Z] [runtime-status] Running spotifyService in mode HTTPS {}
+[debug] [2020-08-31T01:18:29.826Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55165.sock"}
+[debug] [2020-08-31T01:18:29.829Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55165.sock"}
+[debug] [2020-08-31T01:18:29.872Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-31T01:18:29.904Z] [runtime-status] Ephemeral server survived. {}
+[info] >  Something went wrong: results.forEach is not a function
+[debug] [2020-08-31T01:18:38.257Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:18:39.884Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:18:39.885Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:18:39.897Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:18:39.901Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:39.906Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:54.953Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:18:57.117Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:18:57.118Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:18:57.128Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:18:57.134Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:57.137Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:18:58.340Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:18:58.440Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:19:00.528Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:19:00.528Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:19:00.550Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:19:00.566Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:00.571Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:03.461Z] Accepted request GET /broplay-reactnative/us-central1/spotifyService/artists/zayn --> spotifyService
+[debug] [2020-08-31T01:19:03.952Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "spotifyService"
+[debug] [2020-08-31T01:19:03.954Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:19:03.963Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:19:03.970Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:03.972Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:05.214Z] [runtime-status] Trigger "spotifyService" has been found, beginning invocation! {}
+[debug] [2020-08-31T01:19:05.215Z] [runtime-status]  {"httpsTrigger":{},"name":"spotifyService","entryPoint":"spotifyService"}
+[debug] [2020-08-31T01:19:05.215Z] [runtime-status] Running spotifyService in mode HTTPS {}
+[debug] [2020-08-31T01:19:05.225Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55202.sock"}
+[debug] [2020-08-31T01:19:05.229Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55202.sock"}
+[debug] [2020-08-31T01:19:05.274Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-31T01:19:05.302Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "spotifyService" in ~1s
+[debug] [2020-08-31T01:19:26.081Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:19:27.707Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:19:27.708Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:19:27.730Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:19:27.736Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:27.738Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:31.117Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:19:31.218Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:19:32.551Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:19:32.551Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:19:32.557Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:19:32.565Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:32.569Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:34.158Z] Accepted request GET /broplay-reactnative/us-central1/spotifyService/artists/zayn --> spotifyService
+[debug] [2020-08-31T01:19:35.033Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[info] i  functions: Beginning execution of "spotifyService"
+[debug] [2020-08-31T01:19:35.035Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:19:35.059Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:19:35.067Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:35.072Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:19:36.536Z] [runtime-status] Trigger "spotifyService" has been found, beginning invocation! {}
+[debug] [2020-08-31T01:19:36.536Z] [runtime-status]  {"httpsTrigger":{},"name":"spotifyService","entryPoint":"spotifyService"}
+[debug] [2020-08-31T01:19:36.536Z] [runtime-status] Running spotifyService in mode HTTPS {}
+[debug] [2020-08-31T01:19:36.549Z] {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55231.sock"}
+[debug] [2020-08-31T01:19:36.551Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/sc/7m18gtts0fbb8pny_vx2_6600000gn/T/firebase_emulator_invocation_55231.sock"}
+[debug] [2020-08-31T01:19:36.599Z] [runtime-status] Ephemeral server used! {}
+[debug] [2020-08-31T01:19:36.625Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "spotifyService" in ~1s
+[debug] [2020-08-31T01:20:24.065Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:20:25.429Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:20:25.429Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:20:25.434Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:20:25.440Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:20:25.441Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:20:29.139Z] File /Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/src/SpotifyService.js changed, reloading triggers
+[debug] [2020-08-31T01:20:30.665Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions","node_version":"13.11.0"}
+[debug] [2020-08-31T01:20:30.666Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2020-08-31T01:20:30.678Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-08-31T01:20:30.684Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-08-31T01:20:30.700Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"/Users/shreyesh/Desktop/Development/React Native/BroPlay/functions/node_modules/firebase-functions/lib/index.js"}
