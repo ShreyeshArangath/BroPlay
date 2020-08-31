@@ -17,6 +17,7 @@ const spotifyAPI = new spotifyWebAPI({
     clientSecret: clientSecret
 });
 
+//GET: Get access token using the client credentials
 spotifyServiceAPI.get('/token', async (req, res) => {
     await spotifyAPI.clientCredentialsGrant().then(
         function (data) {
@@ -32,19 +33,20 @@ spotifyServiceAPI.get('/token', async (req, res) => {
     );
 });
 
-spotifyServiceAPI.get('/songs/:artist', async (req, res) => {
-    const artist = req.params.artist;
-    const searchResults = []
+// GET:  Search tracks whose name, album or artist contains the query parameter
+
+spotifyServiceAPI.get('/songs/:queryParameter', async (req, res) => {
+    const queryParameter = req.params.queryParameter;
+    const searchResults = [];
+
+    //TODO: Try the other authorization method & handle pagination! 
     await spotifyAPI.clientCredentialsGrant()
         .then((data) => {
             spotifyAPI.setAccessToken(data.body['access_token']);
-            return spotifyAPI.searchTracks(`artist:${artist}`);
+            return spotifyAPI.searchTracks(queryParameter);
         })
         .then((data) => {
-            // Go through the first page of results
             let results = data.body.tracks.items;
-            console.log(results.length);
-
             results.forEach((track, index) => {
                 searchResults.push(track);
             });
@@ -52,8 +54,55 @@ spotifyServiceAPI.get('/songs/:artist', async (req, res) => {
         })
         .catch(function (err) {
             console.log('Something went wrong:', err.message);
-        })
+        });
 })
+
+
+// // GET: Get a list of tracks using the name of the artist
+// spotifyServiceAPI.get('/songs/:artist', async (req, res) => {
+//     const artist = req.params.artist;
+//     const searchResults = []
+
+//     //TODO: Try the other authorization method & handle pagination! 
+//     await spotifyAPI.clientCredentialsGrant()
+//         .then((data) => {
+//             spotifyAPI.setAccessToken(data.body['access_token']);
+//             return spotifyAPI.searchTracks(`artist:${artist}`);
+//         })
+//         .then((data) => {
+//             let results = data.body.tracks.items;
+//             results.forEach((track, index) => {
+//                 searchResults.push(track);
+//             });
+//             res.send(searchResults);
+//         })
+//         .catch(function (err) {
+//             console.log('Something went wrong:', err.message);
+//         });
+// });
+
+
+// //GET : Get a list of tracks using the name of the track
+// spotifyServiceAPI.get("/songs/:trackName", async (req, res) => {
+//     const trackName = req.params.trackName;
+//     const searchResults = [];
+
+//     await spotifyAPI.clientCredentialsGrant()
+//         .then(data => {
+//             spotifyAPI.setAccessToken(data.body['access_token']);
+//             return spotifyAPI.searchTracks(`track:${trackName}`);
+//         })
+//         .then(data => {
+//             let results = data.body.tracks;
+//             results.forEach((track, index) => {
+//                 searchResults.push(track);
+//             });
+//             res.send(searchResults);
+//         })
+//         .catch(function (err) {
+//             console.log('Something went wrong:', err.message);
+//         })
+// })
 
 
 module.exports = spotifyServiceAPI;
