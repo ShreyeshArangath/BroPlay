@@ -14,7 +14,8 @@ const { clientId, clientSecret, redirectUri, scopes } = require('../../backend/c
 
 const spotifyAPI = new spotifyWebAPI({
     clientId: clientId,
-    clientSecret: clientSecret
+    clientSecret: clientSecret,
+    grant_type: 'client_credentials'
 });
 
 //GET: Get access token using the client credentials
@@ -34,7 +35,6 @@ spotifyServiceAPI.get('/token', async (req, res) => {
 });
 
 // GET:  Search tracks whose name, album or artist contains the query parameter
-
 spotifyServiceAPI.get('/songs/:queryParameter', async (req, res) => {
     const queryParameter = req.params.queryParameter;
     const searchResults = [];
@@ -52,7 +52,7 @@ spotifyServiceAPI.get('/songs/:queryParameter', async (req, res) => {
             });
             res.send(searchResults);
         })
-        .catch(function (err) {
+        .catch((err) => {
             console.log('Something went wrong:', err.message);
         });
 })
@@ -69,10 +69,34 @@ spotifyServiceAPI.get('/artists/:artist', async (req, res) => {
             const searchResults = data.body.artists;
             res.send(searchResults);
         })
-        .catch(function (err) {
+        .catch((err) => {
             console.log('Something went wrong:', err.message);
         });
-})
+});
+
+spotifyServiceAPI.get('/playlists/userPlaylists/:userID', async (req, res) => {
+    const userID = req.params.userID;
+    const temp = "314szctljxkma77xqelnv67ksnry?si=ziJeGN2_SqWXZlmU0gz8Cw"; //Temp
+
+    await spotifyAPI.clientCredentialsGrant()
+        .then((data) => {
+            spotifyAPI.setAccessToken(data.body['access_token']);
+
+            return spotifyAPI.getUser(userID);
+        })
+        .then((userData) => {
+            const userID = userData.body.id;
+            console.log(userID);
+            return spotifyAPI.getUserPlaylists(userID);
+        })
+        .then((playlistData) => {
+            const searchResults = playlistData.body;
+            res.send(searchResults);
+        })
+        .catch((err) => {
+            console.log('Something went wrong:', err);
+        })
+});
 
 // // GET: Get a list of tracks using the name of the artist
 // spotifyServiceAPI.get('/songs/:artist', async (req, res) => {
