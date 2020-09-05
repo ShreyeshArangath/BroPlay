@@ -15,8 +15,23 @@ const { clientId, clientSecret, redirectUri, scopes } = require('../../backend/c
 const spotifyAPI = new spotifyWebAPI({
     clientId: clientId,
     clientSecret: clientSecret,
-    grant_type: 'client_credentials'
+    grant_type: 'client_credentials',
+    redirectUri: redirectUri,
 });
+
+state = 'abc'
+
+spotifyServiceAPI.get('/callback/', (req, res) => {
+    res.send(req.query.code);
+})
+
+spotifyServiceAPI.get('/', (req, res) => {
+    const authorizeURL = spotifyAPI.createAuthorizeURL(scopes, state)
+    res.send(authorizeURL);
+
+
+})
+
 
 //GET: Get access token using the client credentials
 spotifyServiceAPI.get('/token', async (req, res) => {
@@ -74,6 +89,8 @@ spotifyServiceAPI.get('/artists/:artist', async (req, res) => {
         });
 });
 
+//GET: Get all the playlists for a given user
+
 spotifyServiceAPI.get('/playlists/userPlaylists/:userID', async (req, res) => {
     const userID = req.params.userID;
     const temp = "314szctljxkma77xqelnv67ksnry?si=ziJeGN2_SqWXZlmU0gz8Cw"; //Temp
@@ -90,13 +107,35 @@ spotifyServiceAPI.get('/playlists/userPlaylists/:userID', async (req, res) => {
             return spotifyAPI.getUserPlaylists(userID);
         })
         .then((playlistData) => {
-            const searchResults = playlistData.body;
+            const searchResults = playlistData.body.items;
             res.send(searchResults);
         })
         .catch((err) => {
             console.log('Something went wrong:', err);
         })
 });
+
+
+// POST: Create a new playlist for a given user 
+
+spotifyServiceAPI.post('/playlists/userPlaylists/:userID/:playlistName', async (req, res) => {
+    const userID = req.params.userID;
+    const playlistName = req.params.playlistName;
+
+    await spotifyAPI.clientCredentialsGrant()
+        .then(data => {
+            spotifyAPI.setAccessToken(data.body['access_token']);
+            console.log(userID, playlistName);
+            return spotifyAPI.createPlaylist(userID, playlistName, { 'public': false });
+        })
+        .then(responseData => {
+            console.log(responseData);
+            res.send("Playlist Created!");
+        })
+        .catch(err => {
+            console.log(err.message);
+        })
+})
 
 // // GET: Get a list of tracks using the name of the artist
 // spotifyServiceAPI.get('/songs/:artist', async (req, res) => {
