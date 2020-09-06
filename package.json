@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "btoa": "^1.2.1",
     "consolidate": "^0.15.1",
     "cors": "^2.8.5",
