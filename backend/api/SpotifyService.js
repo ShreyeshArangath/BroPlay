@@ -3,6 +3,8 @@ const axios = require('axios').default;
 const spotifyServiceAPI = express();
 const spotifyWebAPI = require('spotify-web-api-node');
 const querystring = require('querystring');
+const bodyParser = require('body-parser');
+
 
 const Spotify = require('../model/Spotify');
 
@@ -12,6 +14,7 @@ const authEndpoint = 'https://accounts.spotify.com/authorize';
 
 var code = 'AQDUUILvLcHltrrVUi6X0fyDgoGedcJSRCJQSiQ0IF_JJCaVHZVI0oWaX4v7MBABARFv9noeNNrRadm5lCo7LFoLUvuAqc6ydI2UZHXzDOfmp-UwewJVhSZdU6CZkdaAtdrNUxb4fy7UwjtBprhX6rGkEWFuMcSifoROaANr2izU0didGwP9L-D6wBhf_9xMzJkENQBVBMFDQD3kHAw08rWu8HoZAbWR53Y_bDA1NCrN3YtuoR67t8Zm7UuNt4KuejeLWV607CPvWrBIZfYFiJgpbYGX0qIcDy6wVHv8AgHZSPlI0M-Ro5upOrnna81h2yWlscpoJiXRExFB5FaG42y6J--0UPK8zz9sr1_jvDDeAmtKjA';
 
+const baseAPIPath = process.env.SPOTIFY_PATH || "http://localhost:3000/spotify/";
 
 const { clientId, clientSecret, redirectUri, scopes } = require('../config/spotifyConfig');
 
@@ -22,6 +25,9 @@ const spotifyAPI = new spotifyWebAPI({
 });
 
 const state = 'abc';
+
+spotifyServiceAPI.use(bodyParser.json());
+spotifyServiceAPI.use(bodyParser.urlencoded({ extended: true }));
 
 spotifyServiceAPI.get('/', (req, res) => {
     const authorizeURL = spotifyAPI.createAuthorizeURL(scopes, state);
@@ -130,10 +136,60 @@ spotifyServiceAPI.get('/user', async (req, res) => {
 })
 
 
-
 //GET: Get all the playlists for a given user
 spotifyServiceAPI.get('/user/userPlaylists', async (req, res) => {
+    const accessToken = session.getTokens().accessToken;
+    let userId = session.getUserId();
+    if (!userId) {
+        await axios.get(`${baseAPIPath}/user`).then((data) => {
+            session.setUserId(data.data.id);
+        });
+    }
+    const playlistLink = `https://api.spotify.com/v1/users/${userId}/playlists`
+    await axios.get(playlistLink,
+        {
+            headers: {
+                "Authorization": "Bearer " + accessToken
+            }
+        })
+        .then((responseData) => {
+            console.log(responseData.data.items);
+            res.send(responseData.data.items);
+        })
+        .catch(err => {
+            console.log(err)
+        });
+})
 
+//POST: Create a new playlist 
+spotifyServiceAPI.post('/user/userPlaylists', async (req, res) => {
+    let userId = session.getUserId();
+    const accessToken = session.getTokens().accessToken;
+
+    if (!userId) {
+        await axios.get(`${baseAPIPath}/user`).then((data) => {
+            session.setUserId(data.data.id);
+        });
+    }
+
+    const playlistLink = `https://api.spotify.com/v1/users/${userId}/playlists`;
+    await axios.post(playlistLink, {
+        name: req.body.name,
+        public: req.body.public
+    },
+        {
+            headers: {
+                "Authorization": "Bearer " + accessToken,
+                'Content-Type': "application/json",
+            }
+        })
+        .then((responseData) => {
+            console.log(responseData.data.items);
+            res.send(responseData.data.items);
+        })
+        .catch(err => {
+            console.log(err)
+        });
 
 })
 
