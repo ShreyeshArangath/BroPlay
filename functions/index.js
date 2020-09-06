@@ -14,10 +14,12 @@ const broPlayAPI = express();
 const broPlayRoomServiceAPI = require('./src/BroPlayRoomService');
 const userServiceAPI = require('./src/UserService');
 const spotifyServiceAPI = require('./src/SpotifyService');
+const spotifyServiceAPI2 = require('./src/SpotifyServicev2');
 
 exports.broPlayRooms = functions.https.onRequest(broPlayRoomServiceAPI);
 exports.userService = functions.https.onRequest(userServiceAPI);
 exports.spotifyService = functions.https.onRequest(spotifyServiceAPI);
+exports.spotifyService2 = functions.https.onRequest(spotifyServiceAPI2)
 
 // app.post("/users", async (req, res)=>{
 //     await db.collection()

@@ -13,9 +13,13 @@
     "node": "10"
   },
   "dependencies": {
+    "axios": "^0.20.0",
     "firebase-admin": "^8.6.0",
     "firebase-functions": "^3.3.0",
-    "firebase-tools": "^8.10.0"
+    "firebase-tools": "^8.10.0",
+    "passport-spotify": "^1.1.0",
+    "qs": "^6.9.4",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
