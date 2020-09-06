@@ -190,12 +190,10 @@ spotifyServiceAPI.post('/user/userPlaylists', async (req, res) => {
         .catch(err => {
             console.log(err)
         });
-
 })
 
 
 // POST: Create a new playlist for a given user 
-
 spotifyServiceAPI.post('/playlists/userPlaylists/:userID/:playlistName', async (req, res) => {
     const userID = req.params.userID;
     const playlistName = req.params.playlistName;
