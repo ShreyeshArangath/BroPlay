@@ -60,7 +60,14 @@ const retrieveAccessToken = (code) => {
         })
 }
 
-// GET: Spotify callback with authorization code 
+/**
+ * @api {get} /callback/ Spotify redirect uri with authorization code
+ * @apiName callback
+ * @apiGroup spotify
+ *
+ *
+ * @apiSuccess {String} dataToSend accessToken, expiresIn, refreshToken
+ */
 spotifyServiceAPI.get('/callback/', (req, res) => {
     code = req.query.code;
     retrieveAccessToken(req.query.code)
@@ -192,25 +199,5 @@ spotifyServiceAPI.post('/user/userPlaylists', async (req, res) => {
         });
 })
 
-
-// POST: Create a new playlist for a given user 
-spotifyServiceAPI.post('/playlists/userPlaylists/:userID/:playlistName', async (req, res) => {
-    const userID = req.params.userID;
-    const playlistName = req.params.playlistName;
-
-    await spotifyAPI.authorizationCodeGrant(code)
-        .then(data => {
-            spotifyAPI.setAccessToken(data.body['access_token']);
-            console.log(userID, playlistName);
-            return spotifyAPI.createPlaylist(userID, playlistName, { 'public': false });
-        })
-        .then(responseData => {
-            console.log(responseData);
-            res.send("Playlist Created!");
-        })
-        .catch(err => {
-            console.log(err.message);
-        })
-})
 
 module.exports = spotifyServiceAPI;
